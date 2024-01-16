@@ -19,12 +19,11 @@ This produces better vocals than the by-hand method for less manual work.
 The quick and dirty version:
 
 1. Ensure that the song file, instrumental file, and all python files (readWavFile, alignFiles, lmsAdaptiveFilter, and vocalIsolator) are all in the same directory.
-2. Ensure that the song and instrumental files are in 16-bit WAV format with the same sample rate and number of channels. (Remember, this program cannot convert file formats; you will need 3rd
-party software for this. I recommend Audacity).
+2. Ensure that the song and instrumental files are in 16-bit WAV format with the same sample rate and number of channels. (Remember, this program cannot convert file formats; you will need 3rd party software for this. I recommend Audacity).
 3. Run the main Python file (vocalIsolator).
 4. Enter the name of the song file.
 5. Enter the name of the instrumental file.
 6. Allow the program to run (it may take a few minutes).
-7. The program will print “Finished!” when it is done. The vocal file will be writen into a 16-bit
-WAV file called “vocals.wav” in the same directory as all the other files.
+7. The program will print “Finished!” when it is done. The vocal file will be writen into a 16-bit WAV file called “vocals.wav” in the same directory as all the other files.
+
 For an in-depth explanation of everything, I recommend reading explanation.pdf.
